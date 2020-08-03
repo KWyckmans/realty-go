@@ -1,4 +1,4 @@
-module house-tracker
+module github.com/kwyckmans/realty-go
 
 go 1.12
 
