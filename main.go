@@ -1,7 +1,9 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
+	"io/ioutil"
 	"log"
 	"math"
 	"net/url"
@@ -16,6 +18,8 @@ func main() {
 	const root = "https://www.era.be"
 	const startPrice = 200000
 	const maxPrice = 400000
+
+	properties := make([]Property, 1)
 
 	c := colly.NewCollector(
 	// colly.AllowedDomains("era.be"),
@@ -40,6 +44,7 @@ func main() {
 	})
 
 	c.OnHTML(".intro", func(e *colly.HTMLElement) {
+		fmt.Println(e.Request.URL)
 		title := e.ChildText("h1")
 		address := e.ChildText(".field-name-era-adres--c a[href]")
 		var maps, err = url.Parse(e.ChildAttr(".field-name-era-adres--c a[href]", "href"))
@@ -65,7 +70,7 @@ func main() {
 		}
 
 		rawPrice := e.ChildText(".field-name-era-actuele-vraagprijs--c .field-item")
-		if len(rawPrice) > 0 {
+		if len(rawPrice) > 0 && rawPrice != "Op aanvraag" {
 			rawPrice = strings.Replace(strings.Split(rawPrice, "€")[1], " ", "", -1)
 			price, err = strconv.Atoi(rawPrice)
 		} else {
@@ -73,10 +78,18 @@ func main() {
 		}
 
 		if err != nil {
-			panic(err)
+			log.Println("an error occured!", err)
+			// panic(err)
 		}
 
-		fmt.Println(title, address, maps, bathrooms, bedrooms, livingArea, price)
+		property := NewProperty(price, livingArea, bedrooms, bathrooms, address, *maps, title, *e.Request.URL)
+		properties = append(properties, property)
+		// file, _ := json.MarshalIndent(property, "", " ")
+		// fmt.Println(file)
+		// _ = ioutil.WriteFile("test.json", file, 0644)
+		// fmt.Printf("%+v", property)
+		// fmt.Println(title, address, maps, bathrooms, bedrooms, livingArea, price)
+
 	})
 
 	// Find and visit all links
@@ -92,4 +105,13 @@ func main() {
 	var url = fmt.Sprintf("%s/nl/te-koop/wilrijk?broker_id=52636&price=%d+%d", root, startPrice, maxPrice)
 	// var url = "https://www.era.be/nl/te-koop/wilrijk/appartement/luxe-appartement-3slpk-dubbele-garagebox-en-staanplaats?broker_id=52636"
 	c.Visit(url)
+
+	log.Println("Finished scraping")
+
+	file, _ := json.MarshalIndent(properties, "", " ")
+	_ = ioutil.WriteFile("test.json", file, 0644)
+
+	// for _, property := range properties {
+	// 	fmt.Printf("%+v\n", property)
+	// }
 }

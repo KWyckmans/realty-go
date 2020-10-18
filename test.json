@@ -1,0 +1,591 @@
+[
+ {
+  "Bedrooms": 0,
+  "Bathrooms": 0,
+  "LivingArea": 0,
+  "Price": 0,
+  "Address": {},
+  "Name": "",
+  "URL": {
+   "Scheme": "",
+   "Opaque": "",
+   "User": null,
+   "Host": "",
+   "Path": "",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 0,
+  "Bathrooms": 0,
+  "LivingArea": 110,
+  "Price": 425000,
+  "Address": {},
+  "Name": "Kantoorruimte in centrum Wilrijk!",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/kantoor/kantoorruimte-centrum-wilrijk",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 0,
+  "Bathrooms": 0,
+  "LivingArea": 110,
+  "Price": 425000,
+  "Address": {},
+  "Name": "Handelspand of kantoorruimte in Wilrijk centrum!",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/handelspand/handelspand-kantoorruimte-wilrijk-centrum",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 3,
+  "Bathrooms": 1,
+  "LivingArea": 116,
+  "Price": 399000,
+  "Address": {},
+  "Name": "Luxe appartement - 3slpk - dubbele garagebox en staanplaats!",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/appartement/luxe-appartement-3slpk-dubbele-garagebox-en-staanplaats",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 3,
+  "Bathrooms": 1,
+  "LivingArea": 170,
+  "Price": 9223372036854775807,
+  "Address": {},
+  "Name": "Instapklare woning met prachtige tuin en 3 garages!",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/huis/instapklare-woning-met-prachtige-tuin-en-3-garages",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 3,
+  "Bathrooms": 1,
+  "LivingArea": 140,
+  "Price": 9223372036854775807,
+  "Address": {},
+  "Name": "Ruime woning met prachtige tuin, garage en oprit!",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/huis/ruime-woning-met-prachtige-tuin-garage-en-oprit",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 3,
+  "Bathrooms": 1,
+  "LivingArea": 135,
+  "Price": 9223372036854775807,
+  "Address": {},
+  "Name": "Topper aan het Steytelinckpark te Wilrijk!",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/huis/topper-aan-het-steytelinckpark-te-wilrijk",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 3,
+  "Bathrooms": 1,
+  "LivingArea": 106,
+  "Price": 320000,
+  "Address": {},
+  "Name": "Topper in centrum Wilrijk: 3 slpk - 2 terrassen!",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/appartement/topper-centrum-wilrijk-3-slpk-2-terrassen",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 4,
+  "Bathrooms": 1,
+  "LivingArea": 140,
+  "Price": 9223372036854775807,
+  "Address": {},
+  "Name": "Gezellige gelegen woning in Wilrijk centrum!",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/huis/gezellige-gelegen-woning-wilrijk-centrum",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 4,
+  "Bathrooms": 1,
+  "LivingArea": 155,
+  "Price": 9223372036854775807,
+  "Address": {},
+  "Name": "Ruime 4 slaapkamer woning nabij Steytelinck park!",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/huis/ruime-4-slaapkamer-woning-nabij-steytelinck-park",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 2,
+  "Bathrooms": 1,
+  "LivingArea": 93,
+  "Price": 315000,
+  "Address": {},
+  "Name": "Volledig gerenoveerd appartement met twee slaapkamers!",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/appartement/volledig-gerenoveerd-appartement-met-twee-slaapkamers",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 3,
+  "Bathrooms": 2,
+  "LivingArea": 140,
+  "Price": 299000,
+  "Address": {},
+  "Name": "Karaktervolle woning met 3slpk, 2 badk en tuin!",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/huis/karaktervolle-woning-met-3slpk-2-badk-en-tuin",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 2,
+  "Bathrooms": 1,
+  "LivingArea": 103,
+  "Price": 298000,
+  "Address": {},
+  "Name": "Topper: gelijkvloersapp. met tuin in Wilrijk!",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/appartement/topper-gelijkvloersapp-met-tuin-wilrijk",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 3,
+  "Bathrooms": 2,
+  "LivingArea": 150,
+  "Price": 295000,
+  "Address": {},
+  "Name": "Gezellige woning nabij Wilrijk centrum.",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/huis/gezellige-woning-nabij-wilrijk-centrum",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 3,
+  "Bathrooms": 2,
+  "LivingArea": 150,
+  "Price": 9223372036854775807,
+  "Address": {},
+  "Name": "Ruime woning in centrum Wilrijk!",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/huis/ruime-woning-centrum-wilrijk",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 3,
+  "Bathrooms": 1,
+  "LivingArea": 80,
+  "Price": 285000,
+  "Address": {},
+  "Name": "Charmante woning met 3 slaapkamers en tuin!",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/huis/charmante-woning-met-3-slaapkamers-en-tuin",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 0,
+  "Bathrooms": 0,
+  "LivingArea": 55,
+  "Price": 265000,
+  "Address": {},
+  "Name": "Handelsgelijkvloers in Wilrijk-centrum!",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/handelspand/handelsgelijkvloers-wilrijk-centrum",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 1,
+  "Bathrooms": 1,
+  "LivingArea": 135,
+  "Price": 9223372036854775807,
+  "Address": {},
+  "Name": "Woning met 2 slpk, terras, atelier en inpandige garage!",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/huis/woning-met-2-slpk-terras-atelier-en-inpandige-garage",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 2,
+  "Bathrooms": 1,
+  "LivingArea": 125,
+  "Price": 9223372036854775807,
+  "Address": {},
+  "Name": "Gezellige woning met tuin in Wilrijk centrum!",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/huis/gezellige-woning-met-tuin-wilrijk-centrum",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 3,
+  "Bathrooms": 1,
+  "LivingArea": 98,
+  "Price": 9223372036854775807,
+  "Address": {},
+  "Name": "Top gelegen 3 slaapkamer appartement met groot terras!",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/appartement/top-gelegen-3-slaapkamer-appartement-met-groot-terras",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 2,
+  "Bathrooms": 1,
+  "LivingArea": 75,
+  "Price": 230000,
+  "Address": {},
+  "Name": "Gerenoveerd appartement met terras en autostaanplaats!",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/appartement/gerenoveerd-appartement-met-terras-en-autostaanplaats",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 0,
+  "Bathrooms": 0,
+  "LivingArea": 250,
+  "Price": 229000,
+  "Address": {},
+  "Name": "Instapklaar handelspand in centrum Wilrijk!",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/handelspand/instapklaar-handelspand-centrum-wilrijk",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 3,
+  "Bathrooms": 1,
+  "LivingArea": 101,
+  "Price": 9223372036854775807,
+  "Address": {},
+  "Name": "Gezellige woning met garage en 3 slpk in Wilrijk",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/huis/gezellige-woning-met-garage-en-3-slpk-wilrijk",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 3,
+  "Bathrooms": 1,
+  "LivingArea": 100,
+  "Price": 229000,
+  "Address": {},
+  "Name": "Ruim 3 slpk appartement met garage op centrale ligging!",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/appartement/ruim-3-slpk-appartement-met-garage-op-centrale-ligging",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 2,
+  "Bathrooms": 1,
+  "LivingArea": 100,
+  "Price": 9223372036854775807,
+  "Address": {},
+  "Name": "Verzorgde woning met 2 slpk, garage en tuin.",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/huis/verzorgde-woning-met-2-slpk-garage-en-tuin",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 2,
+  "Bathrooms": 1,
+  "LivingArea": 77,
+  "Price": 215000,
+  "Address": {},
+  "Name": "Instapklaar appartement met 2 slaapkamers op toplocatie!",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/appartement/instapklaar-appartement-met-2-slaapkamers-op-toplocatie",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 1,
+  "Bathrooms": 1,
+  "LivingArea": 105,
+  "Price": 9223372036854775807,
+  "Address": {},
+  "Name": "Centraal gelegen woning te Wilrijk!",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/huis/centraal-gelegen-woning-te-wilrijk",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 2,
+  "Bathrooms": 1,
+  "LivingArea": 85,
+  "Price": 9223372036854775807,
+  "Address": {},
+  "Name": "Gerenoveerd appartement - 2 terrassen - centrum Wilrijk!",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/appartement/gerenoveerd-appartement-2-terrassen-centrum-wilrijk",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 2,
+  "Bathrooms": 1,
+  "LivingArea": 85,
+  "Price": 9223372036854775807,
+  "Address": {},
+  "Name": "Mooi gerenoveerd appartement met 2 terrassen!",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/appartement/mooi-gerenoveerd-appartement-met-2-terrassen",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 3,
+  "Bathrooms": 1,
+  "LivingArea": 125,
+  "Price": 9223372036854775807,
+  "Address": {},
+  "Name": "Renovatieproject zkt. handige harry!",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/huis/renovatieproject-zkt-handige-harry",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 2,
+  "Bathrooms": 1,
+  "LivingArea": 87,
+  "Price": 9223372036854775807,
+  "Address": {},
+  "Name": "Zeer ruim appartement in Wilrijk-centrum met garage!",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/appartement/zeer-ruim-appartement-wilrijk-centrum-met-garage",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ }
+]
