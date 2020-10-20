@@ -40,6 +40,8 @@ This works for now, but will not work once a second website for scraping is adde
 This is also the reason I'm not using maps to store the properties in for now. I could
 store properties in a map, using the url as key, but that again would break down once a second
 site is added that may contain the same properties (and I know for a fact that that will happen).
+
+I could still use this simple find within results for one given site. Potential optimisation.
 */
 func findProperty(properties []Property, url url.URL) int {
 	for i, p := range properties {
