@@ -477,6 +477,25 @@
  {
   "Bedrooms": 2,
   "Bathrooms": 1,
+  "LivingArea": 90,
+  "Price": 225000,
+  "Address": {},
+  "Name": "Centraal gelegen appartement met garage!",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/appartement/centraal-gelegen-appartement-met-garage",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 2,
+  "Bathrooms": 1,
   "LivingArea": 77,
   "Price": 215000,
   "Address": {},
@@ -544,6 +563,25 @@
    "User": null,
    "Host": "www.era.be",
    "Path": "/nl/te-koop/wilrijk/appartement/mooi-gerenoveerd-appartement-met-2-terrassen",
+   "RawPath": "",
+   "ForceQuery": false,
+   "RawQuery": "broker_id=52636",
+   "Fragment": ""
+  }
+ },
+ {
+  "Bedrooms": 4,
+  "Bathrooms": 1,
+  "LivingArea": 106,
+  "Price": 9223372036854775807,
+  "Address": {},
+  "Name": "Zéér ruim appartement - 4 slpk - met terras!",
+  "URL": {
+   "Scheme": "https",
+   "Opaque": "",
+   "User": null,
+   "Host": "www.era.be",
+   "Path": "/nl/te-koop/wilrijk/appartement/zeer-ruim-appartement-4-slpk-met-terras",
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
