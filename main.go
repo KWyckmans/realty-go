@@ -41,7 +41,7 @@ This is also the reason I'm not using maps to store the properties in for now. I
 store properties in a map, using the url as key, but that again would break down once a second
 site is added that may contain the same properties (and I know for a fact that that will happen).
 
-I could still use this simple find within results for one given site. Potential optimisation.gofmt -s
+I could still use this simple find within results for one given site. Potential optimisation.
 */
 func findProperty(properties []Property, url url.URL) int {
 	for i, p := range properties {
@@ -93,6 +93,35 @@ func parseProperty(e *colly.HTMLElement) Property {
 	return NewProperty(price, livingArea, bedrooms, bathrooms, address, *maps, title, *e.Request.URL)
 }
 
+/**
+We can potentially miss properties that are sold if the program hasn't run everyday:
+We suddenly see a proprty that starts at the sold state. Assuming they won't put up
+properties that are already sold
+*/
+func verifyIfSold(e *colly.HTMLElement) bool {
+	rawSold := e.ChildText(".property-state span")
+	log.Println(rawSold)
+	if len(rawSold) > 0 && rawSold == "Verkocht" {
+		return true
+	}
+
+	return false
+}
+
+/**
+We can potentially miss properties that are sold if the program hasn't run everyday:
+We suddenly see a proprty that starts at the sold state. Assuming they won't put up
+properties that are already sold
+*/
+func verifyIfOption(e *colly.HTMLElement) bool {
+	rawSold := e.ChildText(".property-state span")
+	if len(rawSold) > 0 && rawSold == "In optie" {
+		return true
+	}
+
+	return false
+}
+
 func scrapeEra(properties []Property, startPrice int, maxPrice int) []Property {
 	const root = "https://www.era.be"
 
@@ -106,11 +135,13 @@ func scrapeEra(properties []Property, startPrice int, maxPrice int) []Property {
 
 	c.OnHTML(".era-search--result-nodes .node-property .field-name-node-link a[href]", func(e *colly.HTMLElement) {
 		link := e.Attr("href")
+		// log.Println("visiting ", link)
 		c.Visit(e.Request.AbsoluteURL(link))
 	})
 
 	c.OnHTML(".pager li .last", func(e *colly.HTMLElement) {
 		nextPage := e.Attr("href")
+		// log.Println("Going to next page")
 		c.Visit(e.Request.AbsoluteURL(nextPage))
 	})
 
@@ -119,9 +150,27 @@ func scrapeEra(properties []Property, startPrice int, maxPrice int) []Property {
 		if i == -1 {
 			property := parseProperty(e)
 			properties = append(properties, property)
+			i = len(properties) - 1
 		} else {
-			log.Println("Encountered property that was already known")
 			properties[i].LastUpdated = time.Now()
+		}
+
+		// We check both sold an options on properties
+		// on both old and new properties.
+		// This to cover any holes in scraping:
+		// Say we haven't scraped in a couple of days, in that case
+		// properties may appear that are "directly" sold.
+		// Same in the other direction: we may have old properties
+		// stored taht have an option next time we scrape.
+		isSold := verifyIfSold(e)
+		isOption := verifyIfOption(e)
+
+		if isSold {
+			properties[i].SoldAt = time.Now()
+		}
+
+		if isOption {
+			properties[i].OptionAt = time.Now()
 		}
 	})
 

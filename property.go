@@ -21,6 +21,8 @@ type Property struct {
 	URL         url.URL
 	CreatedAt   time.Time
 	LastUpdated time.Time
+	SoldAt      time.Time
+	OptionAt    time.Time
 }
 
 func (p Property) pricePerSqm() float64 {
