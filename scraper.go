@@ -55,11 +55,11 @@ func scrapeEra(properties []Property, startPrice int, maxPrice int) []Property {
 		isSold := verifyIfSold(e)
 		isOption := verifyIfOption(e)
 
-		if isSold {
+		if isSold && properties[i].SoldAt.IsZero() {
 			properties[i].SoldAt = time.Now()
 		}
 
-		if isOption {
+		if isOption && properties[i].OptionAt.IsZero() {
 			properties[i].OptionAt = time.Now()
 		}
 	})
