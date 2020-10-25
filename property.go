@@ -2,6 +2,7 @@ package main
 
 import (
 	"net/url"
+	"time"
 )
 
 type address struct {
@@ -11,13 +12,15 @@ type address struct {
 
 // Property represents a house or an apparetment found on an immo website
 type Property struct {
-	Bedrooms   int
-	Bathrooms  int
-	LivingArea int
-	Price      int
-	Address    address
-	Name       string
-	URL        url.URL
+	Bedrooms    int
+	Bathrooms   int
+	LivingArea  int
+	Price       int
+	Address     address
+	Name        string
+	URL         url.URL
+	CreatedAt   time.Time
+	LastUpdated time.Time
 }
 
 func (p Property) pricePerSqm() float64 {
@@ -34,12 +37,14 @@ func newAddress(loc string, maps url.URL) address {
 // NewProperty creates a new property
 func NewProperty(price int, livingArea int, bedrooms int, bathrooms int, address string, maps url.URL, name string, url url.URL) Property {
 	return Property{
-		Price:      price,
-		LivingArea: livingArea,
-		Bedrooms:   bedrooms,
-		Bathrooms:  bathrooms,
-		Address:    newAddress(address, maps),
-		Name:       name,
-		URL:        url,
+		Price:       price,
+		LivingArea:  livingArea,
+		Bedrooms:    bedrooms,
+		Bathrooms:   bathrooms,
+		Address:     newAddress(address, maps),
+		Name:        name,
+		URL:         url,
+		CreatedAt:   time.Now(),
+		LastUpdated: time.Now(),
 	}
 }

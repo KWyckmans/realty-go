@@ -41,7 +41,7 @@ This is also the reason I'm not using maps to store the properties in for now. I
 store properties in a map, using the url as key, but that again would break down once a second
 site is added that may contain the same properties (and I know for a fact that that will happen).
 
-I could still use this simple find within results for one given site. Potential optimisation.
+I could still use this simple find within results for one given site. Potential optimisation.gofmt -s
 */
 func findProperty(properties []Property, url url.URL) int {
 	for i, p := range properties {
@@ -115,11 +115,13 @@ func scrapeEra(properties []Property, startPrice int, maxPrice int) []Property {
 	})
 
 	c.OnHTML(".intro", func(e *colly.HTMLElement) {
-		if findProperty(properties, *e.Request.URL) == -1 {
+		i := findProperty(properties, *e.Request.URL)
+		if i == -1 {
 			property := parseProperty(e)
 			properties = append(properties, property)
 		} else {
 			log.Println("Encountered property that was already known")
+			properties[i].LastUpdated = time.Now()
 		}
 	})
 

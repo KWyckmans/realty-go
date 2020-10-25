@@ -2,25 +2,6 @@
  {
   "Bedrooms": 0,
   "Bathrooms": 0,
-  "LivingArea": 0,
-  "Price": 0,
-  "Address": {},
-  "Name": "",
-  "URL": {
-   "Scheme": "",
-   "Opaque": "",
-   "User": null,
-   "Host": "",
-   "Path": "",
-   "RawPath": "",
-   "ForceQuery": false,
-   "RawQuery": "",
-   "Fragment": ""
-  }
- },
- {
-  "Bedrooms": 0,
-  "Bathrooms": 0,
   "LivingArea": 110,
   "Price": 425000,
   "Address": {},
@@ -35,7 +16,9 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "2020-10-25T20:21:37.2600549+01:00",
+  "LastUpdated": "2020-10-25T20:21:37.2600549+01:00"
  },
  {
   "Bedrooms": 0,
@@ -54,7 +37,9 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "2020-10-25T20:21:38.324209+01:00",
+  "LastUpdated": "2020-10-25T20:21:38.324209+01:00"
  },
  {
   "Bedrooms": 3,
@@ -73,7 +58,9 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "2020-10-25T20:21:39.3993332+01:00",
+  "LastUpdated": "2020-10-25T20:21:39.3993332+01:00"
  },
  {
   "Bedrooms": 3,
@@ -92,7 +79,9 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "2020-10-25T20:21:40.4694712+01:00",
+  "LastUpdated": "2020-10-25T20:21:40.4694712+01:00"
  },
  {
   "Bedrooms": 3,
@@ -111,7 +100,9 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "0001-01-01T00:00:00Z",
+  "LastUpdated": "0001-01-01T00:00:00Z"
  },
  {
   "Bedrooms": 3,
@@ -130,7 +121,9 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "2020-10-25T20:21:41.5356201+01:00",
+  "LastUpdated": "2020-10-25T20:21:41.5356201+01:00"
  },
  {
   "Bedrooms": 3,
@@ -149,7 +142,9 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "2020-10-25T20:21:42.6047605+01:00",
+  "LastUpdated": "2020-10-25T20:21:42.6047605+01:00"
  },
  {
   "Bedrooms": 4,
@@ -168,7 +163,9 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "2020-10-25T20:21:44.8168565+01:00",
+  "LastUpdated": "2020-10-25T20:21:44.8168565+01:00"
  },
  {
   "Bedrooms": 4,
@@ -187,7 +184,9 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "2020-10-25T20:21:43.671413+01:00",
+  "LastUpdated": "2020-10-25T20:21:43.671413+01:00"
  },
  {
   "Bedrooms": 2,
@@ -206,7 +205,9 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "2020-10-25T20:21:45.882008+01:00",
+  "LastUpdated": "2020-10-25T20:21:45.882008+01:00"
  },
  {
   "Bedrooms": 3,
@@ -225,7 +226,9 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "2020-10-25T20:21:47.0020127+01:00",
+  "LastUpdated": "2020-10-25T20:21:47.0020127+01:00"
  },
  {
   "Bedrooms": 2,
@@ -244,7 +247,9 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "2020-10-25T20:21:48.101073+01:00",
+  "LastUpdated": "2020-10-25T20:21:48.101073+01:00"
  },
  {
   "Bedrooms": 3,
@@ -263,7 +268,9 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "2020-10-25T20:21:50.2473333+01:00",
+  "LastUpdated": "2020-10-25T20:21:50.2473333+01:00"
  },
  {
   "Bedrooms": 3,
@@ -282,7 +289,9 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "2020-10-25T20:21:51.3778168+01:00",
+  "LastUpdated": "2020-10-25T20:21:51.3778168+01:00"
  },
  {
   "Bedrooms": 3,
@@ -301,7 +310,9 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "2020-10-25T20:21:52.4439657+01:00",
+  "LastUpdated": "2020-10-25T20:21:52.4439657+01:00"
  },
  {
   "Bedrooms": 0,
@@ -320,7 +331,9 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "2020-10-25T20:21:53.5081195+01:00",
+  "LastUpdated": "2020-10-25T20:21:53.5081195+01:00"
  },
  {
   "Bedrooms": 1,
@@ -339,7 +352,9 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "2020-10-25T20:21:54.5742679+01:00",
+  "LastUpdated": "2020-10-25T20:21:54.5742679+01:00"
  },
  {
   "Bedrooms": 2,
@@ -358,7 +373,9 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "2020-10-25T20:21:55.6454033+01:00",
+  "LastUpdated": "2020-10-25T20:21:55.6454033+01:00"
  },
  {
   "Bedrooms": 3,
@@ -377,7 +394,9 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "2020-10-25T20:21:56.7115516+01:00",
+  "LastUpdated": "2020-10-25T20:21:56.7115516+01:00"
  },
  {
   "Bedrooms": 2,
@@ -396,7 +415,9 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "2020-10-25T20:21:57.7851863+01:00",
+  "LastUpdated": "2020-10-25T20:21:57.7851863+01:00"
  },
  {
   "Bedrooms": 0,
@@ -415,7 +436,9 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "2020-10-25T20:21:59.9419247+01:00",
+  "LastUpdated": "2020-10-25T20:21:59.9419247+01:00"
  },
  {
   "Bedrooms": 3,
@@ -434,7 +457,9 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "2020-10-25T20:21:58.8727841+01:00",
+  "LastUpdated": "2020-10-25T20:21:58.8727841+01:00"
  },
  {
   "Bedrooms": 3,
@@ -453,7 +478,9 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "2020-10-25T20:22:01.0060786+01:00",
+  "LastUpdated": "2020-10-25T20:22:01.0060786+01:00"
  },
  {
   "Bedrooms": 2,
@@ -472,7 +499,9 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "2020-10-25T20:22:02.0742219+01:00",
+  "LastUpdated": "2020-10-25T20:22:02.0742219+01:00"
  },
  {
   "Bedrooms": 2,
@@ -491,7 +520,9 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "2020-10-25T20:22:04.2549037+01:00",
+  "LastUpdated": "2020-10-25T20:22:04.2549037+01:00"
  },
  {
   "Bedrooms": 2,
@@ -510,7 +541,9 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "2020-10-25T20:22:05.3220606+01:00",
+  "LastUpdated": "2020-10-25T20:22:05.3220606+01:00"
  },
  {
   "Bedrooms": 1,
@@ -529,7 +562,9 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "2020-10-25T20:22:06.3882291+01:00",
+  "LastUpdated": "2020-10-25T20:22:06.3882291+01:00"
  },
  {
   "Bedrooms": 2,
@@ -548,7 +583,9 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "2020-10-25T20:22:08.5449697+01:00",
+  "LastUpdated": "2020-10-25T20:22:08.5449697+01:00"
  },
  {
   "Bedrooms": 2,
@@ -567,7 +604,9 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "2020-10-25T20:22:07.4788212+01:00",
+  "LastUpdated": "2020-10-25T20:22:07.4788212+01:00"
  },
  {
   "Bedrooms": 4,
@@ -586,7 +625,9 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "2020-10-25T20:22:09.6141104+01:00",
+  "LastUpdated": "2020-10-25T20:22:09.6141104+01:00"
  },
  {
   "Bedrooms": 3,
@@ -605,7 +646,9 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "2020-10-25T20:22:10.6947272+01:00",
+  "LastUpdated": "2020-10-25T20:22:10.6947272+01:00"
  },
  {
   "Bedrooms": 2,
@@ -624,6 +667,8 @@
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
    "Fragment": ""
-  }
+  },
+  "CreatedAt": "2020-10-25T20:22:11.7658627+01:00",
+  "LastUpdated": "2020-10-25T20:22:11.7658627+01:00"
  }
 ]
