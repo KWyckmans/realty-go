@@ -15,10 +15,13 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "2020-10-25T20:21:37.2600549+01:00",
-  "LastUpdated": "2020-10-25T20:21:37.2600549+01:00"
+  "LastUpdated": "2020-10-25T21:22:15.8034766+01:00",
+  "SoldAt": "0001-01-01T00:00:00Z",
+  "OptionAt": "0001-01-01T00:00:00Z"
  },
  {
   "Bedrooms": 0,
@@ -36,10 +39,13 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "2020-10-25T20:21:38.324209+01:00",
-  "LastUpdated": "2020-10-25T20:21:38.324209+01:00"
+  "LastUpdated": "2020-10-25T21:22:16.8716197+01:00",
+  "SoldAt": "0001-01-01T00:00:00Z",
+  "OptionAt": "0001-01-01T00:00:00Z"
  },
  {
   "Bedrooms": 3,
@@ -57,10 +63,13 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "2020-10-25T20:21:39.3993332+01:00",
-  "LastUpdated": "2020-10-25T20:21:39.3993332+01:00"
+  "LastUpdated": "2020-10-25T21:22:17.9721827+01:00",
+  "SoldAt": "0001-01-01T00:00:00Z",
+  "OptionAt": "0001-01-01T00:00:00Z"
  },
  {
   "Bedrooms": 3,
@@ -78,10 +87,13 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "2020-10-25T20:21:40.4694712+01:00",
-  "LastUpdated": "2020-10-25T20:21:40.4694712+01:00"
+  "LastUpdated": "2020-10-25T21:22:19.0403261+01:00",
+  "SoldAt": "2020-10-25T21:22:19.0413236+01:00",
+  "OptionAt": "0001-01-01T00:00:00Z"
  },
  {
   "Bedrooms": 3,
@@ -99,10 +111,13 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "0001-01-01T00:00:00Z",
-  "LastUpdated": "0001-01-01T00:00:00Z"
+  "LastUpdated": "0001-01-01T00:00:00Z",
+  "SoldAt": "0001-01-01T00:00:00Z",
+  "OptionAt": "0001-01-01T00:00:00Z"
  },
  {
   "Bedrooms": 3,
@@ -120,10 +135,13 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "2020-10-25T20:21:41.5356201+01:00",
-  "LastUpdated": "2020-10-25T20:21:41.5356201+01:00"
+  "LastUpdated": "2020-10-25T21:22:20.1129618+01:00",
+  "SoldAt": "2020-10-25T21:22:20.1129618+01:00",
+  "OptionAt": "0001-01-01T00:00:00Z"
  },
  {
   "Bedrooms": 3,
@@ -141,10 +159,13 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "2020-10-25T20:21:42.6047605+01:00",
-  "LastUpdated": "2020-10-25T20:21:42.6047605+01:00"
+  "LastUpdated": "2020-10-25T21:22:21.1880866+01:00",
+  "SoldAt": "0001-01-01T00:00:00Z",
+  "OptionAt": "0001-01-01T00:00:00Z"
  },
  {
   "Bedrooms": 4,
@@ -162,10 +183,13 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "2020-10-25T20:21:44.8168565+01:00",
-  "LastUpdated": "2020-10-25T20:21:44.8168565+01:00"
+  "LastUpdated": "2020-10-25T21:22:23.324373+01:00",
+  "SoldAt": "2020-10-25T21:22:23.324373+01:00",
+  "OptionAt": "0001-01-01T00:00:00Z"
  },
  {
   "Bedrooms": 4,
@@ -183,10 +207,13 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "2020-10-25T20:21:43.671413+01:00",
-  "LastUpdated": "2020-10-25T20:21:43.671413+01:00"
+  "LastUpdated": "2020-10-25T21:22:22.253238+01:00",
+  "SoldAt": "0001-01-01T00:00:00Z",
+  "OptionAt": "2020-10-25T21:22:22.253238+01:00"
  },
  {
   "Bedrooms": 2,
@@ -204,10 +231,13 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "2020-10-25T20:21:45.882008+01:00",
-  "LastUpdated": "2020-10-25T20:21:45.882008+01:00"
+  "LastUpdated": "2020-10-25T21:22:24.3915189+01:00",
+  "SoldAt": "0001-01-01T00:00:00Z",
+  "OptionAt": "0001-01-01T00:00:00Z"
  },
  {
   "Bedrooms": 3,
@@ -225,10 +255,13 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "2020-10-25T20:21:47.0020127+01:00",
-  "LastUpdated": "2020-10-25T20:21:47.0020127+01:00"
+  "LastUpdated": "2020-10-25T21:22:25.4606592+01:00",
+  "SoldAt": "0001-01-01T00:00:00Z",
+  "OptionAt": "0001-01-01T00:00:00Z"
  },
  {
   "Bedrooms": 2,
@@ -246,10 +279,13 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "2020-10-25T20:21:48.101073+01:00",
-  "LastUpdated": "2020-10-25T20:21:48.101073+01:00"
+  "LastUpdated": "2020-10-25T21:22:26.5327923+01:00",
+  "SoldAt": "0001-01-01T00:00:00Z",
+  "OptionAt": "0001-01-01T00:00:00Z"
  },
  {
   "Bedrooms": 3,
@@ -267,10 +303,13 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "2020-10-25T20:21:50.2473333+01:00",
-  "LastUpdated": "2020-10-25T20:21:50.2473333+01:00"
+  "LastUpdated": "2020-10-25T21:22:28.6940119+01:00",
+  "SoldAt": "0001-01-01T00:00:00Z",
+  "OptionAt": "0001-01-01T00:00:00Z"
  },
  {
   "Bedrooms": 3,
@@ -288,10 +327,13 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "2020-10-25T20:21:51.3778168+01:00",
-  "LastUpdated": "2020-10-25T20:21:51.3778168+01:00"
+  "LastUpdated": "2020-10-25T21:22:29.7661443+01:00",
+  "SoldAt": "2020-10-25T21:22:29.7661443+01:00",
+  "OptionAt": "0001-01-01T00:00:00Z"
  },
  {
   "Bedrooms": 3,
@@ -309,10 +351,13 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "2020-10-25T20:21:52.4439657+01:00",
-  "LastUpdated": "2020-10-25T20:21:52.4439657+01:00"
+  "LastUpdated": "2020-10-25T21:22:30.934021+01:00",
+  "SoldAt": "0001-01-01T00:00:00Z",
+  "OptionAt": "0001-01-01T00:00:00Z"
  },
  {
   "Bedrooms": 0,
@@ -330,10 +375,13 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "2020-10-25T20:21:53.5081195+01:00",
-  "LastUpdated": "2020-10-25T20:21:53.5081195+01:00"
+  "LastUpdated": "2020-10-25T21:22:32.0570175+01:00",
+  "SoldAt": "0001-01-01T00:00:00Z",
+  "OptionAt": "0001-01-01T00:00:00Z"
  },
  {
   "Bedrooms": 1,
@@ -351,10 +399,13 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "2020-10-25T20:21:54.5742679+01:00",
-  "LastUpdated": "2020-10-25T20:21:54.5742679+01:00"
+  "LastUpdated": "2020-10-25T21:22:33.2228994+01:00",
+  "SoldAt": "2020-10-25T21:22:33.2228994+01:00",
+  "OptionAt": "0001-01-01T00:00:00Z"
  },
  {
   "Bedrooms": 2,
@@ -372,10 +423,13 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "2020-10-25T20:21:55.6454033+01:00",
-  "LastUpdated": "2020-10-25T20:21:55.6454033+01:00"
+  "LastUpdated": "2020-10-25T21:22:34.2920399+01:00",
+  "SoldAt": "2020-10-25T21:22:34.2920399+01:00",
+  "OptionAt": "0001-01-01T00:00:00Z"
  },
  {
   "Bedrooms": 3,
@@ -393,10 +447,13 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "2020-10-25T20:21:56.7115516+01:00",
-  "LastUpdated": "2020-10-25T20:21:56.7115516+01:00"
+  "LastUpdated": "2020-10-25T21:22:35.3571916+01:00",
+  "SoldAt": "2020-10-25T21:22:35.3571916+01:00",
+  "OptionAt": "0001-01-01T00:00:00Z"
  },
  {
   "Bedrooms": 2,
@@ -414,10 +471,13 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "2020-10-25T20:21:57.7851863+01:00",
-  "LastUpdated": "2020-10-25T20:21:57.7851863+01:00"
+  "LastUpdated": "2020-10-25T21:22:36.4258397+01:00",
+  "SoldAt": "0001-01-01T00:00:00Z",
+  "OptionAt": "0001-01-01T00:00:00Z"
  },
  {
   "Bedrooms": 0,
@@ -435,10 +495,13 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "2020-10-25T20:21:59.9419247+01:00",
-  "LastUpdated": "2020-10-25T20:21:59.9419247+01:00"
+  "LastUpdated": "2020-10-25T21:22:38.5561536+01:00",
+  "SoldAt": "0001-01-01T00:00:00Z",
+  "OptionAt": "2020-10-25T21:22:38.5561536+01:00"
  },
  {
   "Bedrooms": 3,
@@ -456,10 +519,13 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "2020-10-25T20:21:58.8727841+01:00",
-  "LastUpdated": "2020-10-25T20:21:58.8727841+01:00"
+  "LastUpdated": "2020-10-25T21:22:37.4889957+01:00",
+  "SoldAt": "2020-10-25T21:22:37.4889957+01:00",
+  "OptionAt": "0001-01-01T00:00:00Z"
  },
  {
   "Bedrooms": 3,
@@ -477,10 +543,13 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "2020-10-25T20:22:01.0060786+01:00",
-  "LastUpdated": "2020-10-25T20:22:01.0060786+01:00"
+  "LastUpdated": "2020-10-25T21:22:39.6228063+01:00",
+  "SoldAt": "0001-01-01T00:00:00Z",
+  "OptionAt": "0001-01-01T00:00:00Z"
  },
  {
   "Bedrooms": 2,
@@ -498,10 +567,13 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "2020-10-25T20:22:02.0742219+01:00",
-  "LastUpdated": "2020-10-25T20:22:02.0742219+01:00"
+  "LastUpdated": "2020-10-25T21:22:40.7717337+01:00",
+  "SoldAt": "0001-01-01T00:00:00Z",
+  "OptionAt": "2020-10-25T21:22:40.7717337+01:00"
  },
  {
   "Bedrooms": 2,
@@ -519,10 +591,13 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "2020-10-25T20:22:04.2549037+01:00",
-  "LastUpdated": "2020-10-25T20:22:04.2549037+01:00"
+  "LastUpdated": "2020-10-25T21:22:43.0790795+01:00",
+  "SoldAt": "0001-01-01T00:00:00Z",
+  "OptionAt": "0001-01-01T00:00:00Z"
  },
  {
   "Bedrooms": 2,
@@ -540,10 +615,13 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "2020-10-25T20:22:05.3220606+01:00",
-  "LastUpdated": "2020-10-25T20:22:05.3220606+01:00"
+  "LastUpdated": "2020-10-25T21:22:44.1472231+01:00",
+  "SoldAt": "0001-01-01T00:00:00Z",
+  "OptionAt": "0001-01-01T00:00:00Z"
  },
  {
   "Bedrooms": 1,
@@ -561,10 +639,13 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "2020-10-25T20:22:06.3882291+01:00",
-  "LastUpdated": "2020-10-25T20:22:06.3882291+01:00"
+  "LastUpdated": "2020-10-25T21:22:45.2158696+01:00",
+  "SoldAt": "2020-10-25T21:22:45.2158696+01:00",
+  "OptionAt": "0001-01-01T00:00:00Z"
  },
  {
   "Bedrooms": 2,
@@ -582,10 +663,13 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "2020-10-25T20:22:08.5449697+01:00",
-  "LastUpdated": "2020-10-25T20:22:08.5449697+01:00"
+  "LastUpdated": "2020-10-25T21:22:47.3601467+01:00",
+  "SoldAt": "2020-10-25T21:22:47.3601467+01:00",
+  "OptionAt": "0001-01-01T00:00:00Z"
  },
  {
   "Bedrooms": 2,
@@ -603,10 +687,13 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "2020-10-25T20:22:07.4788212+01:00",
-  "LastUpdated": "2020-10-25T20:22:07.4788212+01:00"
+  "LastUpdated": "2020-10-25T21:22:46.2920035+01:00",
+  "SoldAt": "2020-10-25T21:22:46.2920035+01:00",
+  "OptionAt": "0001-01-01T00:00:00Z"
  },
  {
   "Bedrooms": 4,
@@ -624,10 +711,13 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "2020-10-25T20:22:09.6141104+01:00",
-  "LastUpdated": "2020-10-25T20:22:09.6141104+01:00"
+  "LastUpdated": "2020-10-25T21:22:48.4347798+01:00",
+  "SoldAt": "0001-01-01T00:00:00Z",
+  "OptionAt": "2020-10-25T21:22:48.4347798+01:00"
  },
  {
   "Bedrooms": 3,
@@ -645,10 +735,13 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "2020-10-25T20:22:10.6947272+01:00",
-  "LastUpdated": "2020-10-25T20:22:10.6947272+01:00"
+  "LastUpdated": "2020-10-25T21:22:49.4974432+01:00",
+  "SoldAt": "2020-10-25T21:22:49.4984406+01:00",
+  "OptionAt": "0001-01-01T00:00:00Z"
  },
  {
   "Bedrooms": 2,
@@ -666,9 +759,12 @@
    "RawPath": "",
    "ForceQuery": false,
    "RawQuery": "broker_id=52636",
-   "Fragment": ""
+   "Fragment": "",
+   "RawFragment": ""
   },
   "CreatedAt": "2020-10-25T20:22:11.7658627+01:00",
-  "LastUpdated": "2020-10-25T20:22:11.7658627+01:00"
+  "LastUpdated": "2020-10-25T21:22:50.5695759+01:00",
+  "SoldAt": "2020-10-25T21:22:50.5695759+01:00",
+  "OptionAt": "0001-01-01T00:00:00Z"
  }
 ]
