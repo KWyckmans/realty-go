@@ -2,28 +2,66 @@ package main
 
 import (
 	"encoding/json"
+	"flag"
+	"fmt"
 	"io/ioutil"
 	"log"
 	"net/url"
+	"os"
 )
 
 func main() {
-	const startPrice = 200000
-	const maxPrice = 400000
+	var isQueryMode = flag.Bool("query", false, "Inidcate wether you want to query the program or just have it run")
+	flag.Parse()
 
-	log.Println("Load properties")
+	f, err := os.OpenFile("realty.log", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
+	if err != nil {
+		log.Fatalf("error opening file: %v", err)
+	}
+	defer f.Close()
+
+	log.SetOutput(f)
+
+	log.Println("Loading properties")
 	var properties []Property = loadProperties("test.json")
+	log.Println(len(properties), "properties loaded")
 
-	log.Println("Start scraping")
-	properties = scrapeEra(properties, startPrice, maxPrice)
+	if *isQueryMode {
+		log.Println("Starting query mode")
 
-	log.Println("Finished scraping, saving to file")
+		var i int
+		for {
+			log.Println("Please select an option: ")
+			log.Println("1. Print properties")
+			log.Println("9. Quit")
+			fmt.Scan(&i)
 
-	// This will dump everything in proprties to a file. Saving everything everytime
-	// seems awefully inefficient, but it will have to do for now.
-	// An easy optimisation would be to check if I even found any updates, but that will
-	// happen very often, so only has a minor impact.
-	saveProperties(properties, "test.json")
+			switch i {
+			case 1:
+				log.Println("Available properties:")
+			case 2:
+				log.Println("Showing cheapest properties:")
+			}
+
+			if i == 9 {
+				break
+			}
+		}
+	} else {
+		const startPrice = 200000
+		const maxPrice = 400000
+
+		log.Println("Start scraping")
+		properties = scrapeEra(properties, startPrice, maxPrice)
+
+		log.Println("Finished scraping, saving to file")
+
+		// This will dump everything in proprties to a file. Saving everything everytime
+		// seems awefully inefficient, but it will have to do for now.
+		// An easy optimisation would be to check if I even found any updates, but that will
+		// happen very often, so only has a minor impact.
+		saveProperties(properties, "test.json")
+	}
 }
 
 /**
