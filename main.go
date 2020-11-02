@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"log"
+	"math"
 	"net/url"
 	"os"
 )
@@ -13,14 +14,6 @@ import (
 func main() {
 	var isQueryMode = flag.Bool("query", false, "Inidcate wether you want to query the program or just have it run")
 	flag.Parse()
-
-	f, err := os.OpenFile("realty.log", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
-	if err != nil {
-		log.Fatalf("error opening file: %v", err)
-	}
-	defer f.Close()
-
-	log.SetOutput(f)
 
 	log.Println("Loading properties")
 	var properties []Property = loadProperties("test.json")
@@ -41,6 +34,26 @@ func main() {
 				log.Println("Available properties:")
 			case 2:
 				log.Println("Showing cheapest properties:")
+
+				lowestPrice := math.MaxInt64
+				lowestIndex := -1
+
+				// Move to properties structure
+				// Ideally we want a Properties type where you can say
+				// Give me the N cheapest ones
+				// Give me the N most expenisve ones
+				// Or just, give me N items, fulfilling a certain comparison function,
+				// but that may be too generic.
+				for i, prop := range properties {
+					ppsqm := prop.Price / prop.LivingArea
+					if ppsqm < lowestPrice {
+						lowestPrice = ppsqm
+						lowestIndex = i
+					}
+				}
+
+				property := properties[lowestIndex]
+				log.Println("Cheapest property per sqm", property, "at", lowestPrice)
 			}
 
 			if i == 9 {
@@ -48,6 +61,13 @@ func main() {
 			}
 		}
 	} else {
+		f, err := os.OpenFile("realty.log", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
+		if err != nil {
+			log.Fatalf("error opening file: %v", err)
+		}
+		defer f.Close()
+
+		log.SetOutput(f)
 		const startPrice = 200000
 		const maxPrice = 400000
 
